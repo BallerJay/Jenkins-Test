@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('install-dep') {
       steps {
-        sh 'Build Successed'
+        sh 'echo \'hello\''
       }
     }
   }
