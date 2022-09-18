@@ -15,7 +15,7 @@ pipeline {
                 <h1>fail cases:${TEST_COUNTS,var="fail"}</h1>
                 </html>''', 
                 subject: 'pipeline-notify', 
-                to: 'i@ballerjay.me'
+                to: 'jayball@qq.com'
     }
   }
 }
