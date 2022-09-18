@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('install-dep') {
       steps {
-        sh 'npm insall'
+        sh 'npm install'
       }
     }
   }
