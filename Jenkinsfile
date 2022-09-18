@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('install-dep') {
       steps {
-        sh 'echo \'hello\''
+       sh '''npm install
+              npm run build'''
       }
     }
   }
@@ -15,7 +16,7 @@ pipeline {
                 <h1>fail cases:${TEST_COUNTS,var="fail"}</h1>
                 </html>''', 
                 subject: 'pipeline-notify', 
-                to: 'jayball@qq.com'
+                to: 'i@ballerjay.me'
     }
   }
 }
