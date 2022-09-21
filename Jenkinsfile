@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('install-dep') {
       steps {
-       sh 'echo \'Hello\''
+        git credentialsId: 'b0fad643-2ccd-4898-a09c-f7fd5bac521a', url: 'https://github.com/BallerJay/Jenkins-Test.git'
       }
     }
   }
