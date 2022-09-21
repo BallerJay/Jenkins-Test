@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('install-dep') {
       steps {
-       sh '''npm install
-              npm run build'''
+       sh 'echo \'Hello\''
       }
     }
   }
